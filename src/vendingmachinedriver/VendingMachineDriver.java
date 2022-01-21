@@ -24,17 +24,17 @@ public class VendingMachineDriver {
         water.displayItem();
         appleJuice.displayItem();
         
-        System.out.print("How many bottles of Mountain Dew are you delivering? ");
+        System.out.print("\nHow many bottles of Mountain Dew are you delivering? ");
         quantity = stdIn.nextInt();
         mountainDew.addStock(quantity);
         System.out.print("How many bottles of water are you delivering? ");
         quantity = stdIn.nextInt();
         water.addStock(quantity);
-        System.out.print("How many bottles of apple juice are you delivering? ");
+        System.out.print("How many bottles of Apple juice are you delivering? ");
         quantity = stdIn.nextInt();
         appleJuice.addStock(quantity);
         
-        System.out.println("Current Inventory:");
+        System.out.println("\nCurrent Inventory:");
         mountainDew.displayItem();
         water.displayItem();
         appleJuice.displayItem();

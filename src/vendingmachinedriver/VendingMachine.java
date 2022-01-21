@@ -18,12 +18,12 @@ public class VendingMachine {
     }
     
     public void displayItem(){
-        System.out.printf("Name: %s, price: $%.2f, Quantity: %d", this.name, this.price, this.quantity);
+        System.out.printf("Name: %s, price: $%.2f, Quantity: %d%n", this.name, this.price, this.quantity);
     }
     
     public void addStock(int quantity){
         double value = quantity * this.price;//stores the value of the added goods
         
-        System.out.printf("Recieved $%f of %s", value, this.name);
+        System.out.printf("Recieved $%.2f of %s%n", value, this.name);
     }
 }//end VendingMachine class
