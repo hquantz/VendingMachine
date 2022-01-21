@@ -18,7 +18,7 @@ public class VendingMachine {
     }
     
     public void displayItem(){
-        System.out.printf("Name: %s, price: $%.2f, Quantity: %d");
+        System.out.printf("Name: %s, price: $%.2f, Quantity: %d", this.name, this.price, this.quantity);
     }
     
     public void addStock(int quantity){
